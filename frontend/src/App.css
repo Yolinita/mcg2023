@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #e5a0b5; 
+}
+
+.menu{
+   padding: 30px;
+  background-color:#990e37; 
+  max-width: auto;
+}
+
+/* AGREGAR PERSONAJES */
+.container{
+  padding: 20px;
+  background-color:  #e5a0b5; 
+  max-width: fit-content;
+  border: #990e37 solid;
+  box-shadow: 10px 10px 20px rgb(0,0,0,0.5);
+  }
+
+.btn{
+  border: 2px solid;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 13px;
+  margin: 5px auto;
+}
+
+.addContainer{
+  position: relative;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  background-color: #282c34;
+  font-size: 10px;
+}
+
+.close-btn{
+  margin-left: auto;
+  font-size: 30px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+
+/* LISTAR PERSONAJES */
+
+.tableContainer{
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+  border-radius: 10px;
+  font: bold;
+}
+
+.tableContainer table{
+  border: 3px solid #4d0aa5;
+}
+
+.tableContainer table thead{
+  background-color: rgb(244, 245, 244);
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td{
+  min-width: 200px;
+  padding: 7px;
+  text-align: left;
+  border: 2px solid #4d0aa5;
+  font-size: 15px;  
+  font-weight: bold;
+}
+
+/*AJUSTES DEL MODAL*/
+
+.custom-modal {
+  padding: 20px;
+  background-color:  rgb(226, 211, 203);
+  max-width: fit-content;
+  margin: 15px auto;
+}
+
+.custom-modal .close-button {
+  display: block;
+  margin: 0 auto; 
+}
+
